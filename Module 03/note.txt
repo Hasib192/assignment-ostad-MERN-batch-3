@@ -3,3 +3,7 @@ In this code, The setInterval function is used to repeatedly call the startTime 
 The startTime function gets the current date and time using the Date object, and then formats the time using the toLocaleTimeString method. The formatted time is then split into its component parts (hour, minute, second, and notation) using the split method, and these values are stored in variables.
 
 Finally, the textContent property of the HTML elements with classes .hour, .minute, .second, and .notation is updated to display the corresponding values of the current time. The displayed time is updated every second, providing a live clock on the web page.
+
+
+
+Live netlify link: https://whimsical-tanuki-ce645f.netlify.app/
