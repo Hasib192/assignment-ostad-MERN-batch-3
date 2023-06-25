@@ -20,5 +20,5 @@ So far, This application contains
 
 1. Navbar
 2. Light/Dark mode
-3. table
-4. 
+3. Table
+4. Form
