@@ -116,9 +116,9 @@
     <!-- color-modes (light, dark) css start  -->
 
     <!-- navbar start -->
-    <section class="navbar-dark  bg-dark  shadow-sm">
+    <header class="navbar-dark  bg-dark  shadow-sm">
         <div class="container">
-            <header class="d-flex flex-wrap justify-content-center py-3">
+            <nav class="d-flex flex-wrap justify-content-center py-3">
                 <a href="#"
                     class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
                     <!-- <img id="logo" src="https://cdn.ostad.app/public/upload/2022-11-27T06-52-05.802Z-logo%20ostad.png"
@@ -137,70 +137,210 @@
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
-            </header>
+            </nav>
         </div>
-    </section>
+    </header>
     <!-- navbar end -->
 
-    <!-- table start -->
-    <section class="section-table">
+    <main>
         <div class="container">
-            <table class="table table-hover table-bordered">
-                <thead>
-                    <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">First</th>
-                        <th scope="col">Last</th>
-                        <th scope="col">Handle</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">3</th>
-                        <td colspan="2">Larry the Bird</td>
-                        <td>@twitter</td>
-                    </tr>
-                </tbody>
-            </table>
+            <!-- main start -->
+            <section id="main">
+                <div class="row">
+                    <div class="bd-masthead mb-3" id="content">
+                        <div class="container-xxl bd-gutter">
+                            <div class="col-md-8 mx-auto text-center">
+                                <img src="img/bootstrap-logo.png" width="200" height="165" alt="Bootstrap"
+                                    class="d-none d-sm-block mx-auto mb-3">
+                                <h1 class="mb-3 fw-semibold lh-1">Build fast, responsive sites with&nbsp;Bootstrap</h1>
+                                <p class="lead mb-4">
+                                    Powerful, extensible, and feature-packed frontend toolkit. Build and customize with
+                                    Sass,
+                                    utilize
+                                    prebuilt grid system and components, and bring projects to life with powerful
+                                    JavaScript
+                                    plugins.
+                                </p>
+                                <p class="text-body-secondary mb-0">
+                                    Currently <strong>v5.3.0</strong>
+                                    <span class="px-1">·</span>
+                                    <a href="#" class="link-secondary">Download</a>
+                                    <span class="px-1">·</span>
+                                    <a href="#" class="link-secondary text-nowrap">v4.6.x docs</a>
+                                    <span class="px-1">·</span>
+                                    <a href="#" class="link-secondary text-nowrap">All releases</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- main end -->
+            <!-- table start -->
+            <section id="section-table">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="text-center mb-4">Simple Hoverable Table</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card ">
+                        <div class="card-body">
+                            <table class="table table-hover table-bordered ">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">First</th>
+                                        <th scope="col">Last</th>
+                                        <th scope="col">Handle</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                        <td>@mdo</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Jacob</td>
+                                        <td>Thornton</td>
+                                        <td>@fat</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td colspan="2">Larry the Bird</td>
+                                        <td>@twitter</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- table end -->
+            <!-- form start -->
+            <section id="section-table">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="text-center mb-4">Bootstrap Form</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card ">
+                        <div class="card-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- form end -->
+            <!-- Accordion start -->
+            <section id="section-table">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="text-center mb-4">Bootstrap Accordion</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card ">
+                        <div class="card-body">
+                            <div class="accordion" id="accordionPanelsStayOpenExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                            aria-controls="panelsStayOpen-collapseOne">
+                                            Accordion Item #1
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                                        <div class="accordion-body">
+                                            <strong>This is the first item's accordion body.</strong> It is shown by
+                                            default, until the collapse
+                                            plugin adds the appropriate classes that we use to style each element. These
+                                            classes control the overall
+                                            appearance, as well as the showing and hiding via CSS transitions. You can
+                                            modify any of this with
+                                            custom CSS or overriding our default variables. It's also worth noting that
+                                            just about any HTML can go
+                                            within the <code>.accordion-body</code>, though the transition does limit
+                                            overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo"
+                                            aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                            Accordion Item #2
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                                        <div class="accordion-body">
+                                            <strong>This is the second item's accordion body.</strong> It is hidden by
+                                            default, until the collapse
+                                            plugin adds the appropriate classes that we use to style each element. These
+                                            classes control the overall
+                                            appearance, as well as the showing and hiding via CSS transitions. You can
+                                            modify any of this with
+                                            custom CSS or overriding our default variables. It's also worth noting that
+                                            just about any HTML can go
+                                            within the <code>.accordion-body</code>, though the transition does limit
+                                            overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree"
+                                            aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                            Accordion Item #3
+                                        </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                                        <div class="accordion-body">
+                                            <strong>This is the third item's accordion body.</strong> It is hidden by
+                                            default, until the collapse
+                                            plugin adds the appropriate classes that we use to style each element. These
+                                            classes control the overall
+                                            appearance, as well as the showing and hiding via CSS transitions. You can
+                                            modify any of this with
+                                            custom CSS or overriding our default variables. It's also worth noting that
+                                            just about any HTML can go
+                                            within the <code>.accordion-body</code>, though the transition does limit
+                                            overflow.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Accordion end -->
         </div>
-    </section>
-    <!-- table end -->
-
-    <!-- form start -->
-    <section class="section-form bg-body-tertiary">
-        <div class="container">
-            <form>
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-        </div>
-    </section>
-    <!-- form end -->
-
+    </main>
 
     <!-- JS start -->
     <script src="./js/main.js"></script>
