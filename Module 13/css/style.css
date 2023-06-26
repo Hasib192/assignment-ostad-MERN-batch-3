@@ -2,11 +2,7 @@
     --bs-nav-link-color: var(--bs-white);
 }
 
-#section-table {
-    padding: 40px;
-}
-
-#section-form {
+.padding{
     padding: 40px;
 }
 
