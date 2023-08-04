@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+*,::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --back-color:rgb(205, 237, 237);
+    --button-back-color:rgb(125, 151, 151);
+}
+body{
+    background-color:var(--back-color);
+}
+h1,h2,h3,h4,h5,h6,input,ul,li,a,p,button,div{
+    font-family: 'Poppins', sans-serif;
+}
+li{
+    list-style: none;
+}
+.container{
+    max-width: 700px;
+    margin: 0 auto;
+}
+.todoApp{
+    margin-top: 30px;
+    padding: 20px 0;
+}
+.todoHeader{
+    text-align: center;
+}
+.todoButton{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+.todoButton .buttonTodo{
+    display: inline-block;
+    border: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    padding: 5px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color:var(--button-back-color);
+    color: rgb(0, 5, 0);
+    transition: all 0.5s;
+}
+.buttonTodo:hover{
+    background-color: #77ccc8;
+}
+.todoContent{
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 15px;
+    /* text-align: center; */
+}
+.empty-main{
+    text-align: center;
+}
+.empty{
+    text-transform: capitalize;
+    font-weight: 500;
+    background-color: var(--button-back-color);
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px 15px;
+    color: white;
+}
+.todoDataDiv{
+    border-radius: 5px;
+    display: flex;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #5a212162;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-data{
+    display: flex;
+    flex-basis: 75%;
+    align-items: center;
+}
+
+.ck {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+  
+.ck input{
+    position: absolute;
+    cursor: pointer;
+    top: 4px;
+    left: 4px;
+    z-index: 9;
+}
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 21px;
+    width: 21px;
+    background-color: #547fa4ba;
+    border-radius: 4px;
+}
+.lineDelete{
+    text-decoration: line-through;
+}
+.value h4{
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.right-data{
+    flex-basis: 25%;
+    text-align: end;
+}
+.btnTodo{
+    border: none;
+    margin-right: 20px;
+    font-size: 21px;
+    display: inline-block;
+    padding: 1px 8px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #60767a;
+    color: rgb(49, 245, 114);
+}
+
+
+
+/* pop up  */
+.Full-screen{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:rgba(169, 206, 208, 0.896);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+}
+.Card-body{
+    width: 25%;
+    height: auto;
+    background-color: #b8dcf1c7;
+    border-radius: 10px;
+}
+.div-1{
+    padding: 20px 0;
+    text-transform: capitalize;
+    text-align: center;
+}
+.div-2{
+    padding: 10px 20px;
+}
+.div-3{
+    padding: 50px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-increase{
+    border: none;
+    font-size: 15px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    padding: 9px 16px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.div-2 input{
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    border-radius: 4px;
+    margin: 20px 0px;
+}
